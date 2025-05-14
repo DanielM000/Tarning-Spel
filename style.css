@@ -1,0 +1,17 @@
+body {
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#Spelare1, #Spelare2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 25px
+    
+
+}
+
+button {
+    margin: 5px;
+    padding: 10px 100px;
+}
