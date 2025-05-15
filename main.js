@@ -21,7 +21,7 @@ function Hålla() {
     if (aktivSpelare === 1) {
         totalPoäng1 += tillfälligPoäng;
         document.getElementById("Poäng1").textContent = "Total: " + totalPoäng1;
-        if (totalPoäng1 >= 20) {
+        if (totalPoäng1 >= 100) {
             alert("Spelare 1 vann");
             nyttspel();
             return;
@@ -29,7 +29,7 @@ function Hålla() {
     } else {
         totalPoäng2 += tillfälligPoäng;
         document.getElementById("Poäng2").textContent = "Total: " + totalPoäng2;
-        if (totalPoäng2 >= 20) {
+        if (totalPoäng2 >= 100) {
             alert("Spelare 2 van");
             nyttspel();
             return;
