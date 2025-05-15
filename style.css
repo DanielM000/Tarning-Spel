@@ -2,13 +2,13 @@ body {
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
     text-align: center;
     margin-top: 50px;
+    background-color: lightblue;
 }
 
-#Spelare1, #Spelare2 {
+#Spelare{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 25px
-    
-
+    margin: 25px;
+    background-color: azure;
 }
 
 button {
