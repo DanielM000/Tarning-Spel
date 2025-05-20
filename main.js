@@ -10,10 +10,33 @@ function Kasta() {
     if (tärning === 1) {
         tillfälligPoäng = 0;
         uppdateraNuvarande();
+        document.getElementById("tarning").src="/bilder/dice-152173_640.png"
         bytSpelare();
-    } else {
+    }
+    else if (tärning === 2) {
         tillfälligPoäng += tärning;
         uppdateraNuvarande();
+        document.getElementById("tarning").src="/bilder/dice-152174_640.png"
+    }
+    else if (tärning === 3) {
+        tillfälligPoäng += tärning;
+        uppdateraNuvarande();
+        document.getElementById("tarning").src="/bilder/dice-152175_640.png"
+    }
+    else if (tärning === 4) {
+        tillfälligPoäng += tärning;
+        uppdateraNuvarande();
+        document.getElementById("tarning").src="/bilder/dice-152176_640.png"
+    }
+    else if (tärning === 5) {
+        tillfälligPoäng += tärning;
+        uppdateraNuvarande();
+        document.getElementById("tarning").src="/bilder/dice-152177_640.png"
+    }
+    else if (tärning === 6) {
+        tillfälligPoäng += tärning;
+        uppdateraNuvarande();
+        document.getElementById("tarning").src="/bilder/dice-152178_640.png"
     }
 }
 
@@ -77,6 +100,6 @@ function nyttspel() {
     document.getElementById("Poäng2").textContent = "Total: ";
     document.getElementById("Nuvarande1").textContent = "Nuvarande: ";
     document.getElementById("Nuvarande2").textContent = "Nuvarande: ";
-    document.getElementById("Tärning").textContent = "Tärning(För senare extra funktioner)";
+    document.getElementById("Tärning").textContent = "Tryck på nytt spel för att börja en ny runda";
     uppdateraTurText();
 }
