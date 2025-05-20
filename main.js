@@ -5,7 +5,6 @@ let totalPoäng2 = 0;
 
 function Kasta() {
     let tärning = Math.floor(Math.random() * 6) + 1;
-    document.getElementById("Tärning").textContent = "Du kastade: " + tärning;
 
     if (tärning === 1) {
         tillfälligPoäng = 0;
@@ -100,6 +99,5 @@ function nyttspel() {
     document.getElementById("Poäng2").textContent = "Total: ";
     document.getElementById("Nuvarande1").textContent = "Nuvarande: ";
     document.getElementById("Nuvarande2").textContent = "Nuvarande: ";
-    document.getElementById("Tärning").textContent = "Tryck på nytt spel för att börja en ny runda";
     uppdateraTurText();
 }

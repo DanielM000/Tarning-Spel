@@ -4,7 +4,10 @@ body {
     background-color: #e6f2ff; 
     margin: 0;
     padding: 20px;
+    overflow-y: hidden;
 }
+
+
 
 h1 {
     color: #0066cc; 
@@ -64,6 +67,7 @@ button:hover {
     background-color: #3399ff; 
 }
 
+
 #Spelare1 {
     background-color: #f0f8ff;
 }
@@ -71,3 +75,50 @@ button:hover {
 #Spelare2 {
     background-color: #e6f7ff; 
 }
+
+@media (max-width: 767px) and (orientation: landscape) {
+    body {
+        padding: 15px;
+    }
+    
+    #Spelare {
+        gap: 15px;
+    }
+    
+    #Spelare1, #Spelare2 {
+        padding: 10px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 1.6rem;
+        margin-bottom: 15px;
+    }
+    
+    h2 {
+        font-size: 1.2rem;
+    }
+    
+    #TurText {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    
+    #Tärning {
+        font-size: 1rem;
+    }
+    
+    button {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+        margin: 5px;
+    }
+}
+
+
