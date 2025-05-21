@@ -9,33 +9,33 @@ function Kasta() {
     if (tärning === 1) {
         tillfälligPoäng = 0;
         uppdateraNuvarande();
-        document.getElementById("tarning").src="/bilder/dice-152173_640.png"
+        document.getElementById("tarning").src="/bilder/dice-152173_640.jpg"
         bytSpelare();
     }
     else if (tärning === 2) {
         tillfälligPoäng += tärning;
         uppdateraNuvarande();
-        document.getElementById("tarning").src="/bilder/dice-152174_640.png"
+        document.getElementById("tarning").src="/bilder/dice-152174_640.jpg"
     }
     else if (tärning === 3) {
         tillfälligPoäng += tärning;
         uppdateraNuvarande();
-        document.getElementById("tarning").src="/bilder/dice-152175_640.png"
+        document.getElementById("tarning").src="/bilder/dice-152175_640.jpg"
     }
     else if (tärning === 4) {
         tillfälligPoäng += tärning;
         uppdateraNuvarande();
-        document.getElementById("tarning").src="/bilder/dice-152176_640.png"
+        document.getElementById("tarning").src="/bilder/dice-152176_640.jpg"
     }
     else if (tärning === 5) {
         tillfälligPoäng += tärning;
         uppdateraNuvarande();
-        document.getElementById("tarning").src="/bilder/dice-152177_640.png"
+        document.getElementById("tarning").src="/bilder/dice-152177_640.jpg"
     }
     else if (tärning === 6) {
         tillfälligPoäng += tärning;
         uppdateraNuvarande();
-        document.getElementById("tarning").src="/bilder/dice-152178_640.png"
+        document.getElementById("tarning").src="/bilder/dice-152178_640.jpg"
     }
 }
 
